@@ -1,0 +1,11 @@
+{
+"type": "oracle",
+"host": "localhost",
+"port": 1521,
+"username": "system",
+"password": "admin654",
+"database": "bdmatriz",
+"synchronize": true,
+"logging": false,
+"entities": ["dist/entidades/**/*.js"]
+}

@@ -1,0 +1,51 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const cors_1 = __importDefault(require("cors"));
+const alumnos_rutas_1 = __importDefault(require("./rutas/alumnos-rutas"));
+const User_rutas_1 = __importDefault(require("./rutas/User-rutas"));
+const Rol_rutas_1 = __importDefault(require("./rutas/Rol-rutas"));
+const Service_rutas_1 = __importDefault(require("./rutas/Service-rutas"));
+const Evento_rutas_1 = __importDefault(require("./rutas/Evento-rutas"));
+const Riesgo_rutas_1 = __importDefault(require("./rutas/Riesgo-rutas"));
+const Frecuencia_rutas_1 = __importDefault(require("./rutas/Frecuencia-rutas"));
+const Impacto_rutas_1 = __importDefault(require("./rutas/Impacto-rutas"));
+const Proceso_rutas_1 = __importDefault(require("./rutas/Proceso-rutas"));
+const TipoP_rutas_1 = __importDefault(require("./rutas/TipoP-rutas"));
+const CateP_rutas_1 = __importDefault(require("./rutas/CateP-rutas"));
+const Control_rutas_1 = __importDefault(require("./rutas/Control-rutas"));
+const TipoC_rutas_1 = __importDefault(require("./rutas/TipoC-rutas"));
+const TipoE_rutas_1 = __importDefault(require("./rutas/TipoE-rutas"));
+const Documento_rutas_1 = __importDefault(require("./rutas/Documento-rutas"));
+const Trabajador_rutas_1 = __importDefault(require("./rutas/Trabajador-rutas"));
+require("reflect-metadata");
+const typeorm_1 = require("typeorm");
+//variables
+const app = (0, express_1.default)();
+const port = 3000;
+(0, typeorm_1.createConnection)();
+//midleware
+app.use((0, cors_1.default)());
+app.use(express_1.default.json());
+app.use('/api-lab', alumnos_rutas_1.default);
+app.use('/usuario', User_rutas_1.default);
+app.use('/rol', Rol_rutas_1.default);
+app.use('/service', Service_rutas_1.default);
+app.use('/evento', Evento_rutas_1.default);
+app.use('/riesgo', Riesgo_rutas_1.default);
+app.use('/impacto', Impacto_rutas_1.default);
+app.use('/frecuencia', Frecuencia_rutas_1.default);
+app.use('/proceso', Proceso_rutas_1.default);
+app.use('/tipoP', TipoP_rutas_1.default);
+app.use('/cateP', CateP_rutas_1.default);
+app.use('/control', Control_rutas_1.default);
+app.use('/tipoC', TipoC_rutas_1.default);
+app.use('/tipoE', TipoE_rutas_1.default);
+app.use('/doc', Documento_rutas_1.default);
+app.use('/trabajador', Trabajador_rutas_1.default);
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`);
+});
