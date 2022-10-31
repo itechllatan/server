@@ -1,0 +1,5 @@
+{ 
+  "acl_manager": {
+    "no_perms": "The Authorization token has no permission to access resource."
+  }
+}

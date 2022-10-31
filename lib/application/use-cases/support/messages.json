@@ -1,0 +1,5 @@
+{ 
+  "acl_manager": {
+    "no_perms": "El token de autorización no tiene permiso para acceder al recurso."
+  }
+}
