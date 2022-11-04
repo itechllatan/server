@@ -1,5 +1,36 @@
 { 
   "acl_manager": {
     "no_perms": "El token de autorización no tiene permiso para acceder al recurso."
+  },
+  "auth": {
+    "sign_in": {
+      "not_verified": "Usuario no verificado, revise su cuenta de correo por el link de activación",
+      "unauthorizedError": "Email y/o contraseña inválidos.",
+      "user_deleted_at": "El usuario no está activado",
+      "no_userAuthorities": "El usuario no posee roles",
+      "no_adminLogin": "Usuario con roles insuficientes",
+      "no_user": "No se encontró el usuario. Verifique",
+      "no_pass": "Contraseña no encontrado, intentelo con ¿Has olvidado tu contraseña?"
+    }
+  },
+  "helpers": {
+    "validations": {
+      "requiredParamError": "Valor requerido, falta el campo: ",
+      "validateJustNumber": "En el campo ",
+      "validateJustNumber_1": " solo se aceptan números",
+      "min": " debe tener al menos ",
+      "max": " debe tener como máximo ",
+      "chars": " caracteres de largo.",
+      "type": " debe ser de tipo ",
+      "bad_email": "Formato de email inválido.",
+      "only_numbers": "Se aceptan solo números en el campo: ",
+      "pass_format": "Formato de password inválido, tu clave debe tener minimo 8 caracteres, una mayuscula, letras y números.",
+      "no_special": "No se aceptan caracteres especiales en el campo ",
+      "no_null": "No se acepta valor null en el campo ",
+      "no_neg": "No se acepta valor negativo en el campo ",
+      "true": "Al menos un campo debe contener el valor True ",
+      "doc_format": "El formato del documento debe ser ",
+      "no_date": "Formato de fecha inválido."
+    }
   }
 }

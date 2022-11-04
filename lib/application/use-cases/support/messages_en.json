@@ -1,5 +1,36 @@
 { 
   "acl_manager": {
     "no_perms": "The Authorization token has no permission to access resource."
+  },
+  "auth": {
+    "sign_in": {
+      "not_verified": "User not verified, check your email account for the activation link",
+      "unauthorizedError": "Invalid email and/or password.",
+      "user_deleted_at": "User is not activated",
+      "no_userAuthorities": "The user does not have roles",
+      "no_adminLogin": "User with insufficient roles",
+      "no_user": "The user was not found. Check",
+      "no_pass": "Password not found, try with Forgot your password?"
+    }
+  },
+  "helpers": {
+    "validations": {
+      "requiredParamError": "Required value, field is missing: ",
+      "validateJustNumber": "In field ",
+      "validateJustNumber_1": " only numbers are accepted",
+      "min": " must have at least ",
+      "max": " must have at most ",
+      "chars": " characters long.",
+      "type": " must be of type ",
+      "bad_email": "Invalid email format.",
+      "only_numbers": "Only numbers are accepted in the field: ",
+      "pass_format": "Invalid password format, your password must have a minimum of 8 characters, one capital letter, letters and numbers.",
+      "no_special": "Special characters are not accepted in the field ",
+      "no_null": "Null value is not accepted in the field ",
+      "no_neg": "Negative value is not accepted in the field ",
+      "true": "At least one field must contain the value True ",
+      "doc_format": "The document format must be ",
+      "no_date": "Invalid date format."
+    }
   }
 }
