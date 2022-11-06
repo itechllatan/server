@@ -11,16 +11,13 @@ const start = async () => {
     await createServer();
     //  await server.start();
 
-    console.log('Server running at:',
-      process.env.PORT,
-      ' ENV: ',
-      process.env.NODE_ENV);
+    console.log('Server running at:', process.env.PORT, ' ENV: ', process.env.NODE_ENV);
+
   } catch (error) {
     console.log(error)
     console.log('Trying to reconnect DB.');
 
-    setTimeout(start,
-      10000);
+    setTimeout(start, 10000);
   }
 };
 
