@@ -17,7 +17,8 @@ const start = async () => {
     console.log(error)
     console.log('Trying to reconnect DB.');
 
-    setTimeout(start, 10000);
+    // setTimeout(start, 10000);
+    setTimeout(start, 2000);
   }
 };
 
