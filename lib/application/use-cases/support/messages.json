@@ -13,6 +13,14 @@
       "no_pass": "Contraseña no encontrado, intentelo con ¿Has olvidado tu contraseña?"
     }
   },
+  "process": {
+    "save": {
+      "no_process": "Proceso no guardado",
+      "no_type": "Tipo de proceso no encontrado",
+      "no_category": "Categoria de proceso no encontrado",
+      "no_user": "No se encontró el usuario."
+    }
+  },
   "helpers": {
     "validations": {
       "requiredParamError": "Valor requerido, falta el campo: ",

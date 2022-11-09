@@ -13,6 +13,14 @@
       "no_pass": "Password not found, try with Forgot your password?"
     }
   },
+  "process": {
+    "save": {
+      "no_process": "Process not saved",
+      "no_type": "The process type was not found",
+      "no_category": "The process category was not found",
+      "no_user": "The user was not found"
+    }
+  },
   "helpers": {
     "validations": {
       "requiredParamError": "Required value, field is missing: ",
