@@ -19,6 +19,28 @@
       "no_type": "The process type was not found",
       "no_category": "The process category was not found",
       "no_user": "The user was not found"
+    },
+    "find": {
+      "not": "Process not found"
+    }
+  },
+  "macro_process": {
+    "save": {
+      "no_macro_process": "Macro process not saved",
+      "no_type": "The process type was not found",
+      "no_category": "The process category was not found",
+      "no_user": "The user was not found"
+    }
+  },
+  "subprocess": {
+    "save": {
+      "no_subprocess": "Subprocess not saved",
+      "no_type": "The process type was not found",
+      "no_category": "The process category was not found",
+      "no_user": "The user was not found"
+    },
+    "find": {
+      "not": "Subprocess not found"
     }
   },
   "helpers": {
