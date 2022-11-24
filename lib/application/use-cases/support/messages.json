@@ -1,4 +1,4 @@
-{ 
+{
   "acl_manager": {
     "no_perms": "El token de autorización no tiene permiso para acceder al recurso."
   },
@@ -21,7 +21,8 @@
       "no_user": "No se encontró el usuario."
     },
     "find": {
-      "not": "Proceso no encontrados"
+      "not": "Proceso no encontrados",
+      "risk": "Riesgo no definido"
     }
   },
   "macro_process": {
@@ -30,6 +31,10 @@
       "no_type": "Tipo de proceso no encontrado",
       "no_category": "Categoria de proceso no encontrado",
       "no_user": "No se encontró el usuario."
+    },
+    "find": {
+      "risk": "Riesgo no definido",
+      "macro": "MacroProceso no definido"
     }
   },
   "subprocess": {
