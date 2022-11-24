@@ -19,6 +19,28 @@
       "no_type": "Tipo de proceso no encontrado",
       "no_category": "Categoria de proceso no encontrado",
       "no_user": "No se encontró el usuario."
+    },
+    "find": {
+      "not": "Proceso no encontrados"
+    }
+  },
+  "macro_process": {
+    "save": {
+      "no_macro_process": "Macro proceso no guardado",
+      "no_type": "Tipo de proceso no encontrado",
+      "no_category": "Categoria de proceso no encontrado",
+      "no_user": "No se encontró el usuario."
+    }
+  },
+  "subprocess": {
+    "save": {
+      "no_subprocess": "Subproceso no guardado",
+      "no_type": "Tipo de proceso no encontrado",
+      "no_category": "Categoria de proceso no encontrado",
+      "no_user": "No se encontró el usuario."
+    },
+    "find": {
+      "not": "Subprocesos no encontrados"
     }
   },
   "helpers": {
