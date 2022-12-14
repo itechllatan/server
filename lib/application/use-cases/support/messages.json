@@ -48,6 +48,11 @@
       "not": "Subprocesos no encontrados"
     }
   },
+  "plansAction": {
+    "save": {
+      "no_plan": "Plan action no guardado"
+    }
+  },
   "helpers": {
     "validations": {
       "requiredParamError": "Valor requerido, falta el campo: ",

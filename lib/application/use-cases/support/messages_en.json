@@ -43,6 +43,11 @@
       "not": "Subprocess not found"
     }
   },
+  "plansAction": {
+    "save": {
+      "no_plan": "Plan action no guardado"
+    }
+  },
   "helpers": {
     "validations": {
       "requiredParamError": "Required value, field is missing: ",
