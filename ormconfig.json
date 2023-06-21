@@ -1,11 +1,11 @@
 {
     "type": "oracle",
-    "host": "adb.us-ashburn-1.oraclecloud.com",
-    "port": 1522,
-    "username": "GESRIESGOS",
-    "password": "GesRies_2023",
-    "database": "ORACLOUD",
-    "synchronize": false,
+    "host": "localhost",
+    "port": 1521,
+    "username": "system",
+    "password": "admin654",
+    "database": "bdmatriz",
+    "synchronize": true,
     "logging": false,
     "entities": ["dist/entidades/**/*.js"]
     }
