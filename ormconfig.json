@@ -7,7 +7,5 @@
     "database": "ORACLOUD",
     "synchronize": true,
     "logging": false,
-    "entities": [
-        "dist/entidades/**/*.js"
-    ]
-}
+    "entities": ["dist/entidades/**/*.js"]
+    }
