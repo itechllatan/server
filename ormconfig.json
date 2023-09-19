@@ -1,13 +1,11 @@
 {
     "type": "oracle",
-    "host": "10.0.202.125",
-    "port": 1522,
-    "username": "GESRIES",
-    "password": "Ple_c4m3_Rpw",
-    "database": "BSCRSDPDB",
-    "synchronize": false,
+    "host": "localhost",
+    "port": 1521,
+    "username": "system",
+    "password": "admin654",
+    "database": "bdmatriz",
+    "synchronize": true,
     "logging": false,
-    "entities": [
-        "dist/entidades/**/*.js"
-    ]
-}
+    "entities": ["dist/entidades/**/*.js"]
+    }
